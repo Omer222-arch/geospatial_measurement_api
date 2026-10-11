@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+postgres_data/
+uploads/
+*.log
+.DS_Store
+.idea/
+.vscode/
+
+# Local runtime artifacts
+aereo.db
+*.sqlite
+*.sqlite3
